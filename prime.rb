@@ -4,7 +4,7 @@ def prime?(int)
   elsif int <= 3
     return true
   else (2..int/2).none? do |x|
-    n % x == 0
+    int % x == 0
   end
   end
 end
