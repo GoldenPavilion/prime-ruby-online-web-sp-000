@@ -1,5 +1,4 @@
 def prime?(int)
-  if int <= 1
-    return false
-  elsif int 
+  n = 2 
+  
 end
